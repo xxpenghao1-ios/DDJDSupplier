@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFB0EB3878292F9C9F89FC85 /* Pods_DDJDSupplier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B2413756909875A793E507 /* Pods_DDJDSupplier.framework */; };
 		EFBD7BE81DD07AFF0005A427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBD7BE71DD07AFF0005A427 /* AppDelegate.swift */; };
 		EFBD7BEA1DD07AFF0005A427 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBD7BE91DD07AFF0005A427 /* ViewController.swift */; };
 		EFBD7BED1DD07AFF0005A427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFBD7BEB1DD07AFF0005A427 /* Main.storyboard */; };
@@ -34,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09A70E15B474ECD26B3EF5AD /* Pods-DDJDSupplier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDJDSupplier.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDJDSupplier/Pods-DDJDSupplier.debug.xcconfig"; sourceTree = "<group>"; };
+		C3B2413756909875A793E507 /* Pods_DDJDSupplier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDJDSupplier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F05C3D2C6D4625956F1EAE /* Pods-DDJDSupplier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDJDSupplier.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDJDSupplier/Pods-DDJDSupplier.release.xcconfig"; sourceTree = "<group>"; };
+		EFBCF28A1DD15696006126C5 /* DDJDSupplier-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DDJDSupplier-Bridging-Header.h"; sourceTree = "<group>"; };
 		EFBD7BE41DD07AFF0005A427 /* DDJDSupplier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDJDSupplier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBD7BE71DD07AFF0005A427 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFBD7BE91DD07AFF0005A427 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB0EB3878292F9C9F89FC85 /* Pods_DDJDSupplier.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +80,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CCEDD4F9429B0B5F1846C3CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3B2413756909875A793E507 /* Pods_DDJDSupplier.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAC0B46037441A8A7A391B06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09A70E15B474ECD26B3EF5AD /* Pods-DDJDSupplier.debug.xcconfig */,
+				D5F05C3D2C6D4625956F1EAE /* Pods-DDJDSupplier.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EFBD7BDB1DD07AFF0005A427 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +104,8 @@
 				EFBD7BFB1DD07AFF0005A427 /* DDJDSupplierTests */,
 				EFBD7C061DD07AFF0005A427 /* DDJDSupplierUITests */,
 				EFBD7BE51DD07AFF0005A427 /* Products */,
+				EAC0B46037441A8A7A391B06 /* Pods */,
+				CCEDD4F9429B0B5F1846C3CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +128,7 @@
 				EFBD7BEE1DD07AFF0005A427 /* Assets.xcassets */,
 				EFBD7BF01DD07AFF0005A427 /* LaunchScreen.storyboard */,
 				EFBD7BF31DD07AFF0005A427 /* Info.plist */,
+				EFBCF28A1DD15696006126C5 /* DDJDSupplier-Bridging-Header.h */,
 			);
 			path = DDJDSupplier;
 			sourceTree = "<group>";
@@ -132,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFBD7C0C1DD07AFF0005A427 /* Build configuration list for PBXNativeTarget "DDJDSupplier" */;
 			buildPhases = (
+				02376FAAAAB169F683EA0691 /* [CP] Check Pods Manifest.lock */,
 				EFBD7BE01DD07AFF0005A427 /* Sources */,
 				EFBD7BE11DD07AFF0005A427 /* Frameworks */,
 				EFBD7BE21DD07AFF0005A427 /* Resources */,
+				1C8A61B0CCCFA8C7A28DF405 /* [CP] Embed Pods Frameworks */,
+				FDBA235FCE81577A0511EA1F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +222,7 @@
 				TargetAttributes = {
 					EFBD7BE31DD07AFF0005A427 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5A79UN6C3M;
 					};
 					EFBD7BF71DD07AFF0005A427 = {
 						CreatedOnToolsVersion = 7.2;
@@ -250,6 +280,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02376FAAAAB169F683EA0691 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1C8A61B0CCCFA8C7A28DF405 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDJDSupplier/Pods-DDJDSupplier-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDBA235FCE81577A0511EA1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDJDSupplier/Pods-DDJDSupplier-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EFBD7BE01DD07AFF0005A427 /* Sources */ = {
@@ -395,23 +473,29 @@
 		};
 		EFBD7C0D1DD07AFF0005A427 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09A70E15B474ECD26B3EF5AD /* Pods-DDJDSupplier.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DDJDSupplier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zltx.DDJDSupplier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DDJDSupplier/DDJDSupplier-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		EFBD7C0E1DD07AFF0005A427 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F05C3D2C6D4625956F1EAE /* Pods-DDJDSupplier.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DDJDSupplier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zltx.DDJDSupplier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DDJDSupplier/DDJDSupplier-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +566,7 @@
 				EFBD7C0E1DD07AFF0005A427 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFBD7C0F1DD07AFF0005A427 /* Build configuration list for PBXNativeTarget "DDJDSupplierTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +575,7 @@
 				EFBD7C111DD07AFF0005A427 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFBD7C121DD07AFF0005A427 /* Build configuration list for PBXNativeTarget "DDJDSupplierUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +584,7 @@
 				EFBD7C141DD07AFF0005A427 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

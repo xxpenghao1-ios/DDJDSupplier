@@ -1,0 +1,6 @@
+framework module Pods_DDJDSupplier {
+  umbrella header "Pods-DDJDSupplier-umbrella.h"
+
+  export *
+  module * { export * }
+}
